@@ -1,0 +1,28 @@
+.display-1{
+    font-size: 10em; 
+    text-align: center;  
+}
+#buttonS{
+    display: grid;
+    grid-template-columns: 1;
+    justify-content: center;
+}
+#buttonS .btn.btn-default{
+    background-color: rgba(42, 105, 102, 0.212);
+    border-radius: 3em;
+    border-color: rgb(8, 61, 52);
+    border-style: solid;
+}
+
+nav .active{
+    background-color: rgb(80, 80, 80);
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-family: Helvetica;
+    font-size: 4rem;
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.644);
+}

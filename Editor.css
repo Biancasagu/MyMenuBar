@@ -1,0 +1,53 @@
+.col-lg-3 img {
+    width: 90%;
+    height: 70%;
+}
+.container{
+    padding-top:2rem;
+}
+.col-lg-3{
+    height: 20rem;
+}
+.carousel.slide{
+    height: 62rem;
+}
+.d-block.w-100{
+    padding-top: 3rem;
+}
+
+nav .active{
+    background-color: rgb(80, 80, 80);
+}
+body{
+    min-width: 600px;
+    
+}
+@media only screen and (max-width: 1000px) {
+    .col-lg-3 img {
+        width: 75%;
+        height: 50%;
+        justify-self: center;
+    }
+   .container{
+       height: 400px;
+   }
+   .col-lg-3{
+    height: 40rem;
+    width: 50rem;
+    margin-left: 15rem;
+}
+pre{
+    width: 77%;
+}
+.h1{
+    padding-right: 10rem;
+}
+.menu{
+    display: block;
+    width: 100%;
+}
+.logo{
+    padding-right: 800px;
+    width: 100%;
+}
+  }
